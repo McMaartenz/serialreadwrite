@@ -1,0 +1,9 @@
+package com.kbs2.serialrw.serial;
+
+public enum PacketState
+{
+	AWAITING_ACKNOWLEDGEMENT,
+	AWAITING_RESPONSE_PACKET,
+	RESPONSE_PACKET_RECEIVED,
+	PACKET_REACHED_A_TIMEOUT
+}
